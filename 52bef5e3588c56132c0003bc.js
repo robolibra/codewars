@@ -2,7 +2,7 @@
 //https://www.codewars.com/kata/52bef5e3588c56132c0003bc/train/javascript
 /* You are given a binary tree:
 
-class Node { 
+class Node {
   constructor(value, left = null, right = null) {
     this.value = value;
     this.left  = left;
@@ -100,7 +100,7 @@ document.querySelector('.btn').addEventListener('click', () => {
     console.log('Done!');
 })
 
-// deleting Nodes elements
+// inversing NodeTree
 /* function treeByLevels (rootNode) {
     if(!rootNode) return []
     const nodes = [rootNode]
@@ -123,7 +123,7 @@ document.querySelector('.btn').addEventListener('click', () => {
 /*   function treeByLevels(rootNode) {
     let values = [];
     let nodes = [rootNode];
-    for(let i = 0; i<nodes.length; i++) 
+    for(let i = 0; i<nodes.length; i++)
         if(nodes[i]){
             values.push(nodes[i].value);
             nodes.push(nodes[i].left, nodes[i].right);
